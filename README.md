@@ -1,7 +1,7 @@
 # helloworld
 Hello World, using 5 different methods in Assembler on Raspberry Pi, in increasing levels of complexity.
 
-A makefile has been included to simplify compilation. Tested only on Raspberry Pi 3, but they should work on the other models just fine. The code is clean and quite straight forward, but I am just learning ARM assembly language. There are probably better ways to do some of the things I came up with. Take it as a challenge, and show me your ideas.
+A makefile has been included to simplify compilation. Tested only on Raspberry Pi 3 (Raspbian), but they should work on the other models just fine. The code is clean and quite straight forward, but I am just learning ARM assembly language. There are probably better ways to do some of the things I came up with. Take it as a challenge, and show me your ideas.
 
 
 ## hw-rpi3-1
