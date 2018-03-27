@@ -14,11 +14,11 @@ Hello World using write(). I suspect this is the more typical method.
 
 ## hw-rpi3-3
 
-Hello World using fwrite(). If you need C-style format strings, this is the way to go.
+Hello World using fwrite(). fwrite() is typically used to work with binary data instead of text mode. Of course, ascii is a subset of binary data, so it works fine for spitting out words, too.
 
 ## hw-rpi3-4
 
-Hello World using putchar. This is pretty much how the computer actually does it deep down inside. I had to use a goto to initiate the loop because ARM doesn't do jz in the same way as Intel. It is strangely easier to reverse the flow and jump if *not* zero. 
+Hello World using putchar. This is closer to how the computer actually does it deep down inside. I had to use a goto to initiate the loop because ARM doesn't do jz in the same way as Intel. It is strangely easier to reverse the flow and jump if *not* zero. 
 
 ## hw-rpi3-5
 
