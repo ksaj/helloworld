@@ -6,7 +6,7 @@ A makefile has been included to simplify compilation. Tested only on Raspberry P
 
 ## hw-rpi3-1
 
-Hello World using puts(). Notice it doesn't need a carriage return, while the other methods do.
+Hello World using puts(). Notice it doesn't need a carriage return, while the other methods do. The puts() call is rather slobber-proof.
 
 ## hw-rpi3-2
 
