@@ -14,7 +14,7 @@ Hello World using write(). I suspect this is the more typical method.
 
 ## hw-rpi3-3
 
-Hello World using fwrite(). fwrite() is typically used to work with binary data instead of text mode. Of course, ascii is a subset of binary data, so it works fine for spitting out words, too.
+Hello World using fwrite(). fwrite() is typically used to work with binary data instead of text mode. Of course, ascii is made up of binary, so it works perfectly well for spitting out words, too.
 
 ## hw-rpi3-4
 
