@@ -23,3 +23,7 @@ Hello World using putchar. This is closer to how the computer actually does it d
 ## hw-rpi3-5
 
 Hello World bypassing clib altogether, and talking direcly to the hardware. Apparently this is a no-no, even if it is theoretically more efficient. The bare-metal and OS dev folk are pretty much limited to using this method until their kernel boots and provides other methods, like those covered already.
+
+# Resources
+
+Since uploading these, I have discovered a few good resources on ARM assembler for the RPI. As I vet them, I'll list them here. For now, here is one that seems to follow a good pocess for learning, and goes more in depth than any of the others I found: https://thinkingeek.com/arm-assembler-raspberry-pi/
