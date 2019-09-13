@@ -9,7 +9,7 @@ main:
   push	{fp, lr}
   add	fp, sp, #4
   ldr	r0, =helloworld // point to helloworld
-  bl	printf      // print using printf()
+  bl	printf        // print using printf()
 
 gtfo:
   mov	r3, #0
