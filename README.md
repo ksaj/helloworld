@@ -26,7 +26,7 @@ Hello World bypassing clib altogether, and talking direcly to the hardware. Appa
 
 ## hw-rpi4-6
 
-Hello World using printf(). I wrote this on my new rpi4, but it should work on the others, too.
+Hello World using printf(). I wrote this on my new rpi4, but it should work on the others, too. This method makes sense when you want to use format strings. Otherwise it is probably overkill. Here we've just used \n for the newline.
 
 # Resources
 
