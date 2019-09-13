@@ -1,6 +1,6 @@
 # Makefile
 
-all: hw-rpi3-1 hw-rpi3-2 hw-rpi3-3 hw-rpi3-4 hw-rpi3-5
+all: hw-rpi3-1 hw-rpi3-2 hw-rpi3-3 hw-rpi3-4 hw-rpi3-5 hw-rpi4-6
 
 
 hw-rpi3-1: hw-rpi3-1.o
@@ -36,8 +36,13 @@ hw-rpi3-5: hw-rpi3-5.o
 
 hw-rpi3-5.o: hw-rpi3-5.S
 	as -o $@ $<
+	
+hw-rpi4-6: hw-rpi4-6.o
+	gcc -o $@ $+
 
+hw-rpi4-6.o: hw-rpi4-6.S
+	as -o $@ $<	
 
 clean:
-	rm hw-rpi3-[12345] hw-rpi3-[12345].o
+	rm hw-rpi3-[12345] hw-rpi3-[12345].o hw-rpi4-6 hw-rpi4-6.o
 
