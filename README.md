@@ -18,11 +18,15 @@ Hello World using fwrite(). fwrite() is typically used to work with binary data 
 
 ## hw-rpi3-4
 
-Hello World using putchar. This is closer to how the computer actually does it deep down inside. I had to use a goto to initiate the loop because ARM doesn't do jz in the same way as Intel. It is strangely easier to reverse the flow and jump if *not* zero. 
+Hello World using putchar(). This is closer to how the computer actually does it deep down inside. I had to use a goto to initiate the loop because ARM doesn't do jz in the same way as Intel. It is strangely easier to reverse the flow and jump if *not* zero. 
 
 ## hw-rpi3-5
 
 Hello World bypassing clib altogether, and talking direcly to the hardware. Apparently this is a no-no, even if it is theoretically more efficient. The bare-metal and OS dev folk are pretty much limited to using this method until their kernel boots and provides other methods, like those covered already.
+
+## hw-rpi4-6
+
+Hello World using printf(). I wrote this on my new rpi4, but it should work on the others, too.
 
 # Resources
 
