@@ -31,4 +31,4 @@ Hello World using printf(). I wrote this on my new rpi4, but it should work on t
 
 # Resources
 
-Since uploading the first bunch of these, I have discovered a few good resources on ARM assembler for the RPI. Here is one that seems to follow a good pocess for learning, and goes more in depth than any of the others I found: https://thinkingeek.com/arm-assembler-raspberry-pi/
+Since uploading the first bunch of these, I have discovered a few good resources on ARM assembler for the RPI. Here is one that seems to follow a good process for learning, and goes more in depth than any of the others I found: https://thinkingeek.com/arm-assembler-raspberry-pi/
