@@ -1,6 +1,6 @@
 .section .rodata
 
-helloworld: .ascii "Hello, World!\012\000"
+helloworld: .ascii "Hello, World!\n\000"
 
 .text
 .global	main
