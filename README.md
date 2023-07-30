@@ -23,7 +23,7 @@ Hello World using putchar(). This is closer to how the computer actually does it
 
 ## hw-rpi3-5
 
-Hello World bypassing clib altogether, and talking direcly to the hardware. Apparently this is a no-no, even if it is theoretically more efficient. The bare-metal and OS dev folk are pretty much limited to using this method until their kernel boots and provides other methods, like those covered already.
+Hello World bypassing clib altogether. [NOTE: Previous description was incorrect. Updating shortly.]
 
 ## hw-rpi4-6
 
