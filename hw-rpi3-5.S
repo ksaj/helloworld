@@ -10,7 +10,7 @@ main:
   ldr	r1, =helloworld			/* point to Hello World */
   mov	r2, #14				/* number of chars to write */
 
-  mov	r7, #4				/* raw system call for write */
+  mov	r7, #4
   swi	#0				/* print without using clib */
 
 gtfo:
